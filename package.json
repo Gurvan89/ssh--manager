@@ -1,0 +1,22 @@
+{
+  "name": "ssh-manager",
+  "version": "1.0.0",
+  "description": "Small command line app to handle multiple ssh connections",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ssh-manager": "./index.js"
+  },
+  "keywords": [
+    "ssh"
+  ],
+  "author": "g.giboire@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "type": "module"
+}
